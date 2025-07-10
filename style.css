@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: linear-gradient(to bottom right, #ffe4ec, #e0f7fa);
+  color: #2b2b2b;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #4a148c;
+}
+
+
+.about {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.about-image {
+  max-width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.bio {
+  flex: 1;
+}
+
+.links ul, .fun-facts ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.links a {
+  color: #00695c;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.fun-facts button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.fun-facts button:hover {
+  background-color: #e65100;
+}
+
+#new-fact {
+  margin-top: 15px;
+  font-style: italic;
+  color: #4a148c;
+}
